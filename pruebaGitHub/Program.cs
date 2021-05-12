@@ -21,6 +21,7 @@ namespace pruebaGitHub
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //Agregué un cambio en secondbranch
                 });
     }
 }
