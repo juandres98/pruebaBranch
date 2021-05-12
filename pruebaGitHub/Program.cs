@@ -14,6 +14,9 @@ namespace pruebaGitHub
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //Agregué una linea en Master localmente
+            //Agrgué una linea en second branch
+            //Agregué una linea en Master
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -21,6 +24,7 @@ namespace pruebaGitHub
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //Agregué un cambio en secondbranch
                 });
     }
 }
