@@ -25,7 +25,7 @@ namespace pruebaGitHub
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //cambio en second branch 2pr
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
@@ -36,5 +36,6 @@ namespace pruebaGitHub
                 });
             });
         }
+        //cambio en master 2pr
     }
 }
